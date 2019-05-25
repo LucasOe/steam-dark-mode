@@ -27,7 +27,7 @@ The updater and installer are made with much love by **PhantomGamers.**
 ------------------------------------------------------------------------------------------------------------------
 
 # LucasOe's Fork
-		In my version I replaced the scrollbar with the one made by **[The Hopeless Gamer](https://github.com/The-HopelessGamer)**.
+		In my version I replaced the scrollbar with the one made by https://github.com/The-HopelessGamer.
 		And I also changed the tags on the front page & removed the gift card banner.
 		I'm planning to add more changes in the future!
 
