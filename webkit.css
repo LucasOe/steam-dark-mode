@@ -2,25 +2,6 @@
 	box-shadow: none !important
 }
 
-/*
-@media only screen and (min-width:1000px){
-.responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
-}
-@media only screen and (min-width:2000px){
-.responsive_page_content{-webkit-transform:scale(1)!important;-webkit-transform-origin:50% 00% 0!important}
-}
-@media only screen and (min-width:3000px){
-.responsive_page_content{-webkit-transform:scale(2)!important;-webkit-transform-origin:50% 00% 0!important}
-.modal_frame{width:66%!important;height:80%!important}
-#footer{display:none!important}
-}
-@media only screen and (min-width:4000px){
-.responsive_page_content{-webkit-transform:scale(2)!important;-webkit-transform-origin:50% 00% 0!important}
-.modal_frame{width:66%!important;height:80%!important}
-#footer{display:none!important}
-}
-*/
-
 html {
 	background: #1e1e1f !important
 }
@@ -2254,7 +2235,9 @@ div#headerSearch.friend_activity_header_search {
 }
 
 .wishlist .controls div {
-	border-radius: 4px !important
+	border-radius: 4px !important;
+	font-size: 0.9em !important;
+	letter-spacing: 0.5px !important;
 }
 
 .dropdown_container {
@@ -3520,7 +3503,8 @@ a.readmore_link {
 }
 
 .btn_small>span, input.btn_small {
-	border-radius: 4px !important
+	border-radius: 4px !important;
+	font-size: 0.8em !important
 }
 
 .btn_small>span, input.btn_small:hover {
