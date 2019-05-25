@@ -18,25 +18,19 @@ The updater and installer are made with much love by **PhantomGamers.**
     Right click on Finder, select "Go to Folder..." and put this in the search path:
     ~/Library/Application Support/Steam/Steam.AppBundle/Steam/Contents/MacOS/skins/YourSkinName/resource
     Copy or drag the files in, click replace, restart steam and all done!
-    
+
 # Linux
     Open Terminal, copy and paste the following line:
     ~/.local/share/Steam/skins/YourSkinName/resource
     Copy or drag the files in, click replace, restart steam and all done!
-    
+
 ------------------------------------------------------------------------------------------------------------------
 
-### Beta Update 2.1
+### LucasOe's Fork
 
-**What's New?**
-
-    A complete new release of the Dark Mode with many features form user requests.
-    The Code has been cleaned up, and shrink the file size down to 60%.
-    Increased the loading times and overall usability on the file.
-    Added a new Lite version of Dark Mode, It's Dark Mode without extras. Credits to PhantomGamers
-    
-
-*Made with love by* ***Shiina♪***
+In my version I replaced the scrollbar with the one made by **[The Hopeless Gamer](https://github.com/The-HopelessGamer)**.
+And I also changed the tags on the front page & removed the gift card banner.
+I'm planning to add more changes in the future!
 
 
 # Screenshots
