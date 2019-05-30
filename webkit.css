@@ -170,9 +170,8 @@ img {
 	border-radius: 4px !important
 }
 
-.discount_block.discount_block_spotlight .bundle_base_discount {
-    color: #626366 !important;
-    background: transparent !important
+.bundle_base_discount {
+  display: none !important
 }
 
 .tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {
@@ -659,7 +658,8 @@ div.store_header_btn {
 }
 
 .discount_block_large .discount_prices {
-	background: #000 !important
+	background: #000 !important;
+  width: 55px
 }
 
 .hover_details_block, .hover_details_block_full {
