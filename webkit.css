@@ -232,6 +232,11 @@ body.v6.summer2018_home .home_page_gutter_giftcard {
 
 .home_page_gutter {
 	left: -225px !important;
+	margin-top: 120px
+}
+
+.home_page_gutter a::first-letter {
+	text-transform: uppercase !important;
 }
 
 .gutter_header {
@@ -242,10 +247,11 @@ body.v6.summer2018_home .home_page_gutter_giftcard {
 	display: none !important;
 }
 
-.home_page_gutter_block {
-	padding-bottom: 3px !important;
+.home_page_gutter_block:first-child, #home_gutter_recommendedtags {
+	padding-bottom: 10px !important;
 }
 
+/*
 .home_page_gutter_block:not(:last-child):after {
   content: '';
   position: absolute;
@@ -256,6 +262,7 @@ body.v6.summer2018_home .home_page_gutter_giftcard {
   clear: both;
   background-color: #66c0f4;
 }
+*/
 
 .FeaturedBlock.First {
 	background: #1e1e1f !important
@@ -277,6 +284,19 @@ body.v6.summer2018_home .home_page_body_ctn {
 .discovery_queue img {
 	border-radius: 4px !important
 }
+
+.home_ctn.live_streams_ctn.no_paging {
+	display: none !important;
+}
+
+#homecontent_anchor, #content_callout, #content_login {
+	display: none;
+}
+
+#footer {
+	display: none;
+}
+
 
 .home_ctn.discovery_queue_ctn {
 	background: #161617 !important;
@@ -724,6 +744,12 @@ img.tab_item_cap_img {
 	border-radius: 4px !important
 }
 
+.tab_preview h2 {
+	width: 258px !important;
+	margin: 0px !important;
+	padding: 0px!important
+}
+
 .carousel_items.store_capsule_container {
 	border-radius: 4px !important
 }
@@ -810,7 +836,8 @@ img.tab_item_cap_img {
 }
 
 .tab_see_more {
-	border-radius: 4px !important
+	border-radius: 4px !important;
+	background-color: rgb(22, 22, 23) !important
 }
 
 .curator_page {
@@ -1007,7 +1034,6 @@ a.home_marketing_message {
 
 body.v6 .home_rightcol .tab_preview h2 {
 	color: #fff !important;
-	margin-left: -40px !important
 }
 
 .tab_review_summary {
@@ -1517,12 +1543,10 @@ a.recent_game_discussion:hover {
 
 .discussion_tab_content_area h2.discussion_primary_header {
 	font-size: 40px !important;
-	margin-left: -40px !important
 }
 
 .discussion_tab_content_area h2 {
 	font-size: 25px !important;
-	margin-left: -40px !important
 }
 
 .forum_paging {
@@ -4189,10 +4213,6 @@ h2.pageheader {
 
 .sale_page_background {
 	background-color: #1e1e1f !important
-}
-
-body.v6.winter_sale_home h2.winter {
-	margin-left: -40px !important
 }
 
 .steamawards_card {
