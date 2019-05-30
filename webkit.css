@@ -170,6 +170,11 @@ img {
 	border-radius: 4px !important
 }
 
+.discount_block.discount_block_spotlight .bundle_base_discount {
+    color: #626366 !important;
+    background: transparent !important
+}
+
 .tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {
 	border-radius: 4px !important
 }
@@ -4095,10 +4100,6 @@ span.bb_spoiler {
 
 .achieveBar {
 	border-radius: 10px !important
-}
-
-.profile_small_header_texture>h1, h2 {
-	padding-left: -40px !important
 }
 
 .profile_small_header_texture>.profile_small_header_additional {
