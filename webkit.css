@@ -38,8 +38,9 @@ html {
 	background: #1e1e1f !important
 }
 
-.home_page_body_ctn.has_takeover .page_background_holder {
-	background-color: transparent !important
+.page_background_holder {
+	background-color: transparent !important;
+    background-size: cover
 }
 
 .curator_featured .screenshots>div {
@@ -171,7 +172,7 @@ img {
 }
 
 .bundle_base_discount {
-  display: none !important
+    display: none !important
 }
 
 .tab_item_discount .discount_pct, .tab_item_discount.no_discount .bundle_base_discount {
@@ -659,7 +660,7 @@ div.store_header_btn {
 
 .discount_block_large .discount_prices {
 	background: #000 !important;
-  width: 55px
+    width: 55px
 }
 
 .hover_details_block, .hover_details_block_full {
